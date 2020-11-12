@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+}
+
+button {
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+.dark-theme {
+  text-align: center;
+  background-color: #0c0000;
+  color: whitesmoke;
+}
+
+.light-theme {
+  background-color: rgb(136, 130, 130);
+  color: #805555;
+}
