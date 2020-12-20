@@ -1,4 +1,3 @@
-import React, {Component} from "react"
 import {ThemeContextConsumer} from "./themeContext"
 
 function Header(props) {
