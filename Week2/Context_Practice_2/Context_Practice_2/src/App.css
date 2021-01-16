@@ -1,0 +1,36 @@
+
+body {
+  background-image: url("./pictures/moviesBacground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.content {
+  margin: auto;
+  width: 500px;
+}
+.form {
+  
+  padding: 10px;
+  width: 250px;
+}
+button {
+  background-color: black;
+  color: whitesmoke;
+}
+.movie {
+  background-image: url("./pictures/moviesLogo.png");
+  background-color: black;
+  background-size: 100% 100%;
+  border: 1px white solid;
+  width: 250px;
+  font-size: large;
+  padding: 10px;
+  color:white
+}
+
+.tittle{
+  text-align: auto;
+  color:black;
+  font-family: 'Dancing Script', cursive;
+}

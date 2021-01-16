@@ -1,5 +1,6 @@
 import React from "react"
 import {ThemeContextConsumer} from "./themeContext"
+import App from "App"
 
 function Button(props) {
     return (
@@ -13,3 +14,8 @@ function Button(props) {
 
 
 export default Button
+
+
+class app extends React.Component {
+    <button onClick={context.this.s} className={`${context.theme}-theme`}>Different Theme</button>
+            )}

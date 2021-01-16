@@ -1,5 +1,6 @@
 /* Always import react */
-import React from "react"
+import React, {Component} from "react"
+
 
 /* I`m importing all the activities form the componets */
 import Header from "./Header"
@@ -19,3 +20,30 @@ function App() {
 
 /* Here is how to export the components to be use in others components */
 export default App;
+
+
+class app extends React.Component {
+    state = {
+        emptyErray: [
+        ],
+        newItem:"",
+        Name:"",
+        
+
+    
+    }
+    submit = (event) => {
+event.preventDefault()
+this.setState({
+    emptyErray: this.state.emptyErray.concat(
+this.state.Name,this.state.newItem
+    )
+
+})
+    }
+}
+
+onclick = submit()
+
+
+
