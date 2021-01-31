@@ -1,0 +1,30 @@
+.container {
+    width: 600px;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: auto;
+}
+
+.navbar {
+    text-align: center;
+    width: 260px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: auto;
+}
+
+.navlink {
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    width: 310px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: auto;
+}
+
+input[type='text'] {
+    width: 260px;
+}
