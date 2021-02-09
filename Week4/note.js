@@ -2,6 +2,12 @@
 
 const redux = require("redux")
 
+function changeCount(amount = 1) {
+    return {
+        type: "CHANGE_COUNT",
+        payload: amount
+    }
+}
  
  function addFavoriteThing(thing) {
     return {
@@ -9,10 +15,6 @@ const redux = require("redux")
         payload: thing
     }
 }
-const initialState = {
-
-    favoriteThings: []
-} 
 
 function removeFavoriteThing(thing) {
     return {
@@ -21,8 +23,18 @@ function removeFavoriteThing(thing) {
     }
 }
 
+const initialState = {
+    count: 0,
+    favoriteThings: []
+} 
+
 function reducer(state = initialState, action) {
     switch(action.type) {
+        case "CHANGE_COUNT":
+            return {
+                ...state,
+                count: state.count + action.payload
+            } 
         case "ADD_FAVORITE_THING":
             return {
                 ...state,
