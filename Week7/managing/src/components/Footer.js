@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
             <span>
-                &copy; {`${new Date().getFullYear()} Webdev Student`}
+                Contact Us At EP@Employment.com
             </span>
         </footer>
     )

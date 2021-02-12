@@ -34,8 +34,7 @@ function BasicInfo() {
 
     return (
         <div className='entry-page'>
-            <h2>General Information</h2>
-            <h3>Provide your name and contact information to begin:</h3>
+            <h2>Personal Information</h2>
             <div>
                 <input
                     type='text'
